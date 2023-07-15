@@ -1,0 +1,112 @@
+/* Global Styles */
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Page-specific Styles */
+/* Add your custom styles for specific pages here */
+
+/* CSS styles for the layout */
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	position: relative;
+}
+
+#logo {
+	margin-top: -450px;
+	width: 45%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo1 {
+	margin-top: -69px;
+	width: 45%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	background-color: #333;
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.button span {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.button-characters {
+	width: 340px;
+	height: 340px;
+	background-image: url('../img/characters_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	top: 45%;
+	left: 40%;
+}
+
+.button-locations {
+	width: 280px;
+	height: 280px;
+	background-image: url('../img/locations_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	top: 49%;
+	left: 20%;
+}
+
+.button-episodes {
+	width: 310px;
+	height: 310px;
+	background-image: url('../img/episodes_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	top: 45%;
+	left: 63%;
+}
